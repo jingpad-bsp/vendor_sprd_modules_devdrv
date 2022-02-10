@@ -1,0 +1,15 @@
+Introduction
+============
+
+This repository is used for placing 3rd-party device drivers for Spreadtrum platform.
+
+These drivers shall be released under GPL v2 or above.
+
+All drivers should be compiled and built as kernel modules(ko) and packaged into initramfs
+under Android build infrastructure.
+
+The branch name should be kept with /kernel/common/ branch name. For example, devdrv:sprdlinux4.4
+
+is couple with kernel/common:sprdlinux4.4
+
+

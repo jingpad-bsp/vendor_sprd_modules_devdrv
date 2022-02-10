@@ -1,0 +1,7 @@
+on post-fs
+    insmod /vendor/lib/modules/stmvl53l0.ko
+
+on boot
+    chmod 666 /dev/stmvl53l0_ranging
+
+    chown system system /dev/stmvl53l0_ranging

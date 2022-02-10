@@ -1,0 +1,1 @@
+PRODUCT_COPY_FILES += vendor/sprd/modules/devdrv/input/misc/tcs3430/init.tcs3430.rc:vendor/etc/init/init.tcs3430.rc
